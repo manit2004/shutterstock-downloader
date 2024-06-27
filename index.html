@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Downloader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="body">
+    <div class="heading">
+      <h1>  <span>Shutterstock</span> Image <span>Downloader</span></h1>
+    </div>
+    <div class="inputs">
+      <input type="text" name="text" id="imageUrl" placeholder="Enter the Image Link" required="">
+    </div>
+      
+    
+    <div class="button">
+      <button class="btn" onclick="generateDownloadLink()"> Generate Download Link
+      </button>
+    </div>
+    <div class="tag">
+      <a id="downloadLink" style="display:none;"></a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
