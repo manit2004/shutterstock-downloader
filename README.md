@@ -1,1 +1,1 @@
-# Shutterstock-Downloaderb [Website Link](manitroy.me/shutterstock-downloader)
+# [Website Link](manitroy.me/shutterstock-downloader)
