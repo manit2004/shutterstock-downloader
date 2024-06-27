@@ -1,1 +1,1 @@
-# [Website Link](https://www.manitroy.me/shutterstock-downloader)
+# [Website Link](https://manitroy.me/shutterstock-downloader/)
