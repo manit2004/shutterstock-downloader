@@ -1,12 +1,12 @@
 function generateDownloadLink() {
     const userInput = document.getElementById('imageUrl').value;
-    const regex = /(.*\/image-photo\/(.*)-(\d+))/;
+    const regex = /(.*\/(image-photo|image-vector|image-illustration)\/(.*)-(\d+))/;
     const match = userInput.match(regex);
 
     if (match) {
         const baseUrl = match[1];
-        const description = match[2];
-        const id = match[3];
+        const description = match[3];
+        const id = match[4];
         const newUrl = `${baseUrl}-600nw-${id}.jpg`;
 
         const xhr = new XMLHttpRequest();
